@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return f"{os.getenv("PORT")} Hi"
+    return f"{os.getenv('PORT')} Hi"
 
 
 if __name__ == '__main__':
